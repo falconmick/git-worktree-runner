@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # OpenCode adapter
 
-# Check if OpenCode is available
+# Check if OpenCode (docker) is available
 ai_can_start() {
   command -v docker >/dev/null 2>&1
 }
 
-# Start OpenCode in a directory
+# Start OpenCode (docker) in a directory
 # Usage: ai_start path [args...]
 ai_start() {
   local path="$1"
