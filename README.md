@@ -345,7 +345,7 @@ gtr.editor.default = cursor
 ### AI Tool Settings
 
 ```bash
-# Default AI tool: none (or aider, claude, codex, continue, cursor, gemini, opencode)
+# Default AI tool: none (or aider, claude, codex, continue, cursor, gemini, opencode, opencode-docker)
 gtr.ai.default = none
 ```
 
@@ -360,6 +360,7 @@ gtr.ai.default = none
 | **[Cursor](https://cursor.com)**                          | Install from cursor.com                           | AI-powered editor with CLI agent                         | `git gtr config set gtr.ai.default cursor`   |
 | **[Gemini](https://github.com/google-gemini/gemini-cli)** | `npm install -g @google/gemini-cli`               | Open-source AI coding assistant powered by Google Gemini | `git gtr config set gtr.ai.default gemini`   |
 | **[OpenCode](https://opencode.ai)**                       | Install from opencode.ai                          | AI coding assistant                                      | `git gtr config set gtr.ai.default opencode` |
+| **[OpenCode (Docker)](https://opencode.ai)**              | Install Docker                                    | AI coding assistant (Docker)                             | `git gtr config set gtr.ai.default opencode-docker` |
 
 **Examples:**
 
