@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# OpenCode adapter
+# OpenCode (docker) adapter
 
 # Check if OpenCode (docker) is available
 ai_can_start() {
