@@ -29,6 +29,7 @@ ai_start() {
       docker run -it --rm \
         -v "$PWD:/workspace" \
         -v "$HOME/.local/share/opencode:/root/.local/share/opencode" \
+        -v "$HOME/.config/opencode:/root/.config/opencode" \
         -w /workspace \
         ghcr.io/sst/opencode \
         "$@"
